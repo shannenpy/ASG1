@@ -14,7 +14,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 - As a owner of the website, I want to put out as many different templates as I can, so that users will want to come back for more and I can generate more revenue.
 - As a owner, the catergories of template I want to put out include powerpoints, logos, icons, instagram stories and infographics, so that it will be convienient for users as they can have a one stop shop.
 - As a owner, I want to source good designers, so that users can personalize their templates however they want without the constraints of the pre-designed templates.
-- As a user, I want to be able to find a variety of templates that is on theme for my powerpoint presentations, so that I can deliver presentable, eye-pleasing slides.
+- As a user, I want to be able to find a variety of template that is on theme for my powerpoint presentations, so that I can deliver presentable, eye-pleasing slides.
 - As a user like an social media influencer, I want to find a minimilistic template for my instagram story highlights, so that it is in theme with my instagram feed.
 - As a polytechnic student, I want to download a powerpoint template for my communications project which has the theme of healthcare, so that anyone watching my presentation will know what I will be presenting based on the first slide.
 - As a user who works in a company's social media marketing team, I want to find an eye-catching infographic template to clearly present information about the company, so that customers would be attracted to read and give support to the company.
@@ -29,6 +29,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 - __Product and sevices page__ which allows users to choose the catergory they want or service they need. 
 - __Contact us page__ which allows users to get in touch with owner by filling up a form.
 - __Reviews/ testimonial page__ which allows users to read other user's past experiences so that new users will be more confident when using the website.
+- __Pricing page__ which allows users to choose a package suitable for them once their free trial is over by reading all the T&Cs for each package listed.
 - __Add to cart__ function which allows users to collate what they want before finalising their purchase.
 - __Wishlist__ function which allows users to save any designs or templates they like in case they want to use it in the future by clicking the heart(like) button.
 
