@@ -27,7 +27,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 - __Login/ signup page__ which allows users to get into their account or create a new account by having them fill in their emails and passwords.
 - __Homepage__ which shows a preview of the rest of the pages so that users know what the website has and can start to navigate through the entire webpage.
 - __Product and sevices page__ which allows users to choose the catergory they want or service they need. 
-- __Contact us page__ which allows users to get in touch with website or designers by filling up a form.
+- __Contact us page__ which allows users to get in touch with website or designers by filling up a form and users will be replied via email.
 - __Reviews/ testimonial page__ which allows users to read other user's past experiences so that new users will be more confident when using the website.
 - __Pricing page__ which allows users to choose a package suitable for them once their free trial is over by reading all the T&Cs for each package listed.
 - __Add to cart__ function which allows users to collate what they want before finalising their purchase.
@@ -36,3 +36,4 @@ This section is also where you would share links to any wireframes, mockups, dia
 ### Features left to implement
 - __Save card details__ which allows quick and easy purchase of products and services by asking users whether they want to save their card number.
 - __Join us__ which allows users to use the platform to upload their own templates by asking users to fill up a form and sign up to be a creator.
+- __FAQ page__ which allows the website owner to show all commonly asked questions so that owner does not need to keep replying the same question.
