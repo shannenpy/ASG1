@@ -9,6 +9,8 @@
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
 As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.--->
 
-Features--->
+- As a user, I want to be able to find a nice template that is on theme for my powerpoint presentations, so that I can deliver presentable, eye-pleasing slides.
+- As a owner of the website, I want to put out as many different templates I can, so that users will want to come back for more and I can earn more money.
+- As a owner, the catergories of template I want to put out include powerpoints, logos, icons, instagram stories and infographics, so that it will be convienient for users as they can have a one stop shop.
