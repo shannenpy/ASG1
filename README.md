@@ -20,6 +20,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 - As a user who works in a company's social media marketing team, I want to find an eye-catching infographic template to clearly present information about the company, so that customers would be attracted to read and give support to the company.
 
 ### Wireframes
+[Mobile and desktop wireframe 1](wireframe%201.xd)
 
 ## Features
 ### Existing features
