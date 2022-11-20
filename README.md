@@ -3,13 +3,6 @@
 <p>As owner of the site, I want to make the website easy for users to navigate through and ensure users are able to easily purchase and download what they want. With their satistfied experience, I hope to encourage them to come back again.</p>
 
 ## Design Process
-<!---Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.--->
-
 ### User Stories
 - As a owner of the website, I want to put out as many different templates as I can, so that users will want to come back for more and I can generate more revenue.
 - As a owner, the catergories of template I want to put out include powerpoints, logos, icons, instagram stories and infographics, so that it will be convienient for users as they can have a one stop shop.
@@ -23,7 +16,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 [Mobile and desktop wireframe 1](wireframe%201.xd)
 
 ## Features
-### Existing features
+<!---### Existing features-->
 - __First month free downloads and packages__ offered subsequently, which allows users a chance to famliarise and trust the website before investing their money into the website.
 - __Login/ signup page__ which allows users to get into their account or create a new account by having them fill in their emails and passwords.
 - __Homepage__ which shows a preview of the rest of the pages so that users know what the website has and can start to navigate through the entire webpage.
@@ -34,7 +27,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 - __Add to cart__ function which allows users to collate what they want before finalising their purchase.
 - __Wishlist__ function which allows users to save any designs or templates they like in case they want to use it in the future by clicking the heart(like) button.
 
-### Features left to implement
+<!---### Features left to implement-->
 - __Save card details__ which allows quick and easy purchase of products and services by asking users whether they want to save their card number.
 - __Join us__ which allows users to use the platform to upload their own templates by asking users to fill up a form and sign up to be a creator.
 - __FAQ page__ which allows the website owner to show all commonly asked questions so that owner does not need to keep replying the same question.
