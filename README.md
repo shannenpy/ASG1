@@ -22,7 +22,7 @@
 - __Homepage__ which shows a preview of the rest of the pages so that users know what the website has and can start to navigate through the entire webpage.
 - __Product and sevices page__ which allows users to choose the catergory they want or service they need. 
 - __Contact us page__ which allows users to get in touch with website or designers by filling up a form and users will be replied via email.
-- __Reviews/ testimonial page__ which allows users to read other user's past experiences or upload their own experience so that new users will be more confident when using the website.
+- __Reviews/ testimonial page__ which asllows users to read other user's past experiences or upload their own experience so that new users will be more confident when using the website.
 - __Pricing page__ which allows users to choose a package suitable for them once their free trial is over by reading all the T&Cs for each package listed.
 - __Add to cart__ function which allows users to collate what they want before finalising their purchase.
 - __Wishlist__ function which allows users to save any designs or templates they like in case they want to use it in the future by clicking the heart(like) button.
