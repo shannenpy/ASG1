@@ -18,17 +18,30 @@ navList.innerHTML = navContent
 
 // homepage
 let homePage = document.createElement("div")
-homePage.setAttribute("class", "homepage")
+homePage.classList.add("homepage")
 document.body.appendChild(homePage)
+var homepage = document.querySelector(".homepage")
 
 let productServices = document.createElement('h2')
 productServices.classList.add("products-services")
-document.querySelector(".homepage").append(productServices)
-const productServicesContent = `Products & Services`
+homepage.append(productServices)
+var productServicesContent = `Products & Services`
 productServices.innerHTML = productServicesContent
+
+let contact = document.createElement("h2")
+contact.classList.add("contact")
+homepage.append(contact)
+var contactContent = `Contact Us`
+contact.innerHTML = contactContent
+
+let pricings = document.createElement("h2")
+pricings.classList.add("pricings")
+homepage.append(pricings)
+var pricingsContact = `Pricings`
+pricings.innerHTML = pricingsContact
 
 let reviews = document.createElement('h2')
 reviews.classList.add("reviews")
-document.querySelector(".homepage").append(reviews)
-const reviewsContent = `Reviews`
+homepage.append(reviews)
+var reviewsContent = `Reviews`
 reviews.innerHTML = reviewsContent
