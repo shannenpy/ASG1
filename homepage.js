@@ -46,9 +46,9 @@ review.innerHTML = reviewHeading
 let reviewContentList = document.createElement("ul")
 review.append(reviewContentList)
 var reviewContent = 
-`<li>Isobella Mckee: This website is easy to use and has great templates. Highly recommend!</li>
-<li>Olive Wall: Always come here for their templates when I need to start a new project.</li>
-<li>Nevaeh Coffey: Many themes to choose from and helps me start my project easily. Strongly recommend to get!!</li>`
+`<li class="review-content">Isobella Mckee: This website is easy to use and has great templates. Highly recommend!</li>
+<li class="review-content">Olive Wall: Always come here for their templates when I need to start a new project.</li>
+<li class="review-content">Nevaeh Coffey: Many themes to choose from and helps me start my project easily. Strongly recommend to get!!</li>`
 reviewContentList.innerHTML = reviewContent
 
 let contact = document.createElement("section")
