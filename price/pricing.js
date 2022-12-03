@@ -2,16 +2,25 @@
 let mainNav = document.createElement("nav")
 mainNav.classList.add("main-navigation")
 document.body.appendChild(mainNav)
+mainnav = document.querySelector(".main-navigation")
+let logo = document.createElement("img")
+logo.setAttribute("src", "/images/logo.png")
+logo.setAttribute("alt", "logo of The Digital Zone")
+logo.setAttribute("id", "logo")
+mainnav.append(logo)
+let company = document.createElement("label")
+mainnav.append(company)
+const compName = `<a href = "/index.html" class="name">The Digital Zone</a>`
+company.innerHTML = compName
 let navList = document.createElement("ul")
 navList.classList.add("nav-list")
-document.querySelector(".main-navigation").append(navList)
+mainnav.append(navList)
 const navContent = 
-`<li class="nav-content"><a href = "homepage.html">The Digital Zone</a></li>
-<li class="nav-content"><a href = "account.html">Login/ Signup</a></li>
-<li class="nav-content"><a href = "product.html">Products & Services</a></li>
-<li class="nav-content"><a href = "review.html">Reviews</a></li>
-<li class="nav-content"><a href = "pricing.html">Pricings</a></li>
-<li class="nav-content"><a href = "contact.html">Contact Us</a></li>`
+`<li class="nav-content"><a href = "/account.html" class="nav-a">Login/ Signup</a></li>
+<li class="nav-content"><a href = "/product.html" class="nav-a">Products & Services</a></li>
+<li class="nav-content"><a href = "/review.html" class="nav-a">Reviews</a></li>
+<li class="nav-content"><a href = "/price/pricing.html" class="nav-a">Pricings</a></li>
+<li class="nav-content"><a href = "/contact.html" class="nav-a">Contact Us</a></li>`
 navList.innerHTML = navContent
 
 /*----- packages -----*/
@@ -23,15 +32,15 @@ let packagesList = document.createElement("ul")
 packagesList.classList.add("packages-list")
 packages.append(packagesList)
 var packType =
-`<li class="free-pack">Free</li>
-<li class="month-pack">Monthly</li>
-<li class="year-pack">Yearly</li>`
+`<li id="free-pack" class="pack-type">Free</li>
+<li id="month-pack" class="pack-type">Monthly</li>
+<li id="year-pack" class="pack-type">Yearly</li>`
 packagesList.innerHTML = packType
 
 // free
 let freeInfoList = document.createElement("ul")
-freeInfoList.classList.add("free-info-list")
-document.querySelector(".free-pack").append(freeInfoList)
+freeInfoList.setAttribute("id", "free-info-list")
+document.querySelector("#free-pack").append(freeInfoList)
 var freeInfo = 
 `<li>Download any 3 templetes for free</li>
 <li>For the first time you engage a designer, pay without platform fee</li>
@@ -40,8 +49,8 @@ freeInfoList.innerHTML = freeInfo
 
 // monthly
 let monthInfoList = document.createElement("ul")
-monthInfoList.classList.add("month-info-list")
-document.querySelector(".month-pack").append(monthInfoList)
+monthInfoList.setAttribute("id", "month-info-list")
+document.querySelector("#month-pack").append(monthInfoList)
 var monthInfo = 
 `<li>Pay $20 monthly</li>
 <li>Cancel anytime you want</li>
@@ -51,8 +60,8 @@ monthInfoList.innerHTML = monthInfo
 
 // yearly
 let yearInfoList = document.createElement("ul")
-yearInfoList.classList.add("year-info-list")
-document.querySelector(".year-pack").append(yearInfoList)
+yearInfoList.setAttribute("id", "year-info-list")
+document.querySelector("#year-pack").append(yearInfoList)
 var yearInfo = 
 `<li>Pay $149 yearly</li>
 <li>Cancel anytime you want</li>

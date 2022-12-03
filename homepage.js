@@ -1,21 +1,33 @@
-/* give id to element: element.setAttribute('id', 'name') */
-
 // nav menu
 let mainNav = document.createElement("nav")
 mainNav.classList.add("main-navigation")
 document.body.appendChild(mainNav)
+mainnav = document.querySelector(".main-navigation")
+let logo = document.createElement("img")
+logo.setAttribute("src", "images/logo.png")
+logo.setAttribute("alt", "logo of The Digital Zone")
+logo.setAttribute("id", "logo")
+mainnav.append(logo)
+let company = document.createElement("label")
+mainnav.append(company)
+const compName = `<a href = "index.html" id="name">The Digital Zone</a>`
+company.innerHTML = compName
 let navList = document.createElement("ul")
 navList.classList.add("nav-list")
-document.querySelector(".main-navigation").append(navList)
+mainnav.append(navList)
 const navContent = 
-`<li class="nav-content"><a href = "homepage.html">The Digital Zone</a></li>
-<li class="nav-content"><a href = "account.html">Login/ Signup</a></li>
-<li class="nav-content"><a href = "product.html">Products & Services</a></li>
-<li class="nav-content"><a href = "review.html">Reviews</a></li>
-<li class="nav-content"><a href = "pricing.html">Pricings</a></li>
-<li class="nav-content"><a href = "contact.html">Contact Us</a></li>`
+`<li class="nav-content"><a href = "account.html" class="nav-a">Login/ Signup</a></li>
+<li class="nav-content"><a href = "product.html" class="nav-a">Products & Services</a></li>
+<li class="nav-content"><a href = "review.html" class="nav-a">Reviews</a></li>
+<li class="nav-content"><a href = "/price/pricing.html" class="nav-a">Pricings</a></li>
+<li class="nav-content"><a href = "contact.html" class="nav-a">Contact Us</a></li>`
 navList.innerHTML = navContent
 
+let navSmall = document.createElement("label")
+navSmall.setAttribute("id", "icon")
+mainnav.append(navSmall)
+const navSmallContent = `<i class="fas fa-bars"></i>`
+navSmall.innerHTML = navSmallContent
 // homepage
 let homePage = document.createElement("div")
 homePage.classList.add("homepage")
