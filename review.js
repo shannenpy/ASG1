@@ -35,49 +35,89 @@ navSmall.innerHTML = navSmallContent
 
 
 /*----- general reviews -----*/
-
 let generalReviews = document.createElement("section")
 generalReviews.classList.add("general-reviews")
 document.body.appendChild(generalReviews)
 generalreviews = document.querySelector(".general-reviews")
-
-let printGeneral = document.createElement("ul")
-printGeneral.classList.add("general-list")
-generalreviews.append(printGeneral)
-function generalReview(name, review) {
-        this.name = name
-        this.review = review
-        this.printGeneralContentFunction = function() {
-            let printGeneralContent =`<li>${this.name}<br>${this.review}</li>`
-            return printGeneral.innerHTML = printGeneralContent
-    }
-}
-
-const generalList = []
-let generalReview1 = new generalReview (
-    "Allan Cervantes",
-    "Saw this on Instagram, decided to give it a try and I absolutely \
-    love it. I can find any template I need to kick start my projects. Subscribed to their yearly package."
-)
-generalList.push(generalReview1)
-
-
-// for (let i = 0; i < generalList.length; i++) {
-//     username = i["name"]
-//     review = i["review"]
-    
-// }
-
 let uploadGeneral = document.createElement("button")
 uploadGeneral.classList.add("button")
-uploadGeneral.setAttribute("data-modal", "modalOne")
+uploadGeneral.setAttribute("data-modal", "upload")
 generalreviews.append(uploadGeneral)
 const uploadGeneralContent = `Upload`
 uploadGeneral.innerHTML = uploadGeneralContent
+let modalOne = document.createElement("div")
+modalOne.classList.add("modal")
+generalreviews.append(modalOne)
+var modalOneContent = 
+`<div class="modal-content">
+<div class="review-form">
+  <a class="close">&times;</a>
+  <form action="/">
+    <h2>How was your experience</h2>
+    <div>
+      <input class="fname" type="text" name="name" placeholder="Full name" />
+    </div>
+    <span>Message</span>
+    <div>
+      <textarea rows="2"></textarea>
+    </div>
+    <button type="submit" href="/">Submit</button>
+  </form>
+</div>
+</div>`
+modalOne.innerHTML = modalOneContent
 
-let uploadForm = document.createElement("form")
-var formContent = 
-`<label for="fname">Name:</label>
-<input type="text" placeholder="Enter your username" class="fname"><br>
-<label for="review">Review:</label>
-<input type="text" placeholder="Please enter your review" class="review">`
+
+/* ----- designer reviews ----- */
+let designerReviews = document.createElement("section")
+designerReviews.classList.add("designer-reviews")
+document.body.appendChild(designerReviews)
+designerreviews = document.querySelector(".designer-reviews")
+let uploadDesigner = document.createElement("button")
+uploadDesigner.classList.add("button")
+uploadDesigner.setAttribute("data-modal", "upload")
+designerreviews.append(uploadDesigner)
+const uploadDesignerContent = `Upload`
+uploadDesigner.innerHTML = uploadDesignerContent
+let modalTwo = document.createElement("div")
+modalTwo.classList.add("modal")
+designerreviews.append(modalTwo)
+var modalTwoContent = 
+`<div class="modal-content">
+<div class="review-form">
+  <span class="close">&times;</span>
+  <form action="/">
+    <h2>How was your designer</h2>
+    <div>
+      <input class="fname" type="text" name="name" placeholder="Full name" /><br>
+      <input type="text" name="name" placeholder="Designer name" />
+    </div>
+    <span>Message</span>
+    <div>
+      <textarea rows="2"></textarea>
+    </div>
+    <button type="submit" href="/">Submit</button>
+  </form>
+</div>
+</div>`
+modalTwo.innerHTML = modalTwoContent
+
+let modalBtns = document.querySelectorAll(".button")
+modalBtns.forEach(function (btn) {
+  btn.onclick = function () {
+    let modal = btn.getAttribute("data-modal")
+    document.getElementById(modal).style.display = "block"
+  }
+})
+let closeBtns = document.querySelectorAll(".close")
+closeBtns.forEach(function (btn) {
+  btn.onclick = function () {
+    let modal = btn.closest(".modal");
+    modal.style.display = "none";
+  }
+})
+window.onclick = function (event) {
+  if (event.target.className === "modal") {
+    event.target.style.display = "none"
+  }
+}
