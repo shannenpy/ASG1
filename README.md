@@ -19,6 +19,8 @@
 
 [Mobile and desktop wireframe 1](/ID_s10244203_Shannen_Assg1_wireframe1.xd)
 
+[Mobile and desktop wireframe 2](/ID_s10244203_Shannen_Assg1_wireframe2.xd)
+
 ## Features
 
 <!---### Existing features-->
