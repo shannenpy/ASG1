@@ -43,9 +43,9 @@
 
 ## Technologies Used
 
-- <https://www.javascript.com/>
-- <https://html.com/>
-- <https://css.com/>
+- [JavaScript](https://www.javascript.com/)
+- [HTML(https://html.com/)
+- [CSS](https://css.com/)
 
 ## Testing
 
@@ -62,4 +62,4 @@
 
 ### Media
 
-- All template photos used were obtain from <https://www.canva.com/>
+- All template photos used were obtain from [Canva](https://www.canva.com/)
