@@ -8,7 +8,7 @@
 ### User Stories
 
 - As a owner of the website, I want to put out as many different templates as I can, so that users will want to come back for more and I can generate more revenue.
-- As a owner, the catergories of template I want to put out include powerpoints, logos, icons, instagram stories and infographics, so that it will be convienient for users as they can have a one stop shop.
+- As a owner, the catergories of template I want to put out include powerpoints, logos, instagram stories and infographics, so that it will be convienient for users as they can have a one stop shop.
 - As a owner, I want to source good designers, so that users can personalize their templates however they want without the constraints of the pre-designed templates.
 - As a user, I want to be able to find a variety of template that is on theme for my powerpoint presentations, so that I can deliver presentable, eye-pleasing slides.
 - As a user like an social media influencer, I want to find a minimilistic template for my instagram story highlights, so that it is in theme with my instagram feed.
@@ -23,20 +23,43 @@
 
 ## Features
 
-<!---### Existing features-->
+### Existing features
 
 - **First month free downloads and packages** offered subsequently, which allows users a chance to famliarise and trust the website before investing their money into the website.
 - **Login/ signup page** which allows users to get into their account or create a new account by having them fill in their emails and passwords.
 - **Homepage** which shows a preview of the rest of the pages so that users know what the website has and can start to navigate through the entire webpage.
 - **Product and sevices page** which allows users to choose the catergory they want or service they need.
 - **Contact us page** which allows users to get in touch with website or designers by filling up a form and users will be replied via email.
-- **Reviews/ testimonial page** which asllows users to read other user's past experiences or upload their own experience so that new users will be more confident when using the website.
 - **Pricing page** which allows users to choose a package suitable for them once their free trial is over by reading all the T&Cs for each package listed.
+
+### Features left to implement
+
+- **Reviews/ testimonial page** which asllows users to read other user's past experiences or upload their own experience so that new users will be more confident when using the website.
 - **Add to cart** function which allows users to collate what they want before finalising their purchase.
 - **Wishlist** function which allows users to save any designs or templates they like in case they want to use it in the future by clicking the heart(like) button.
-
-<!---### Features left to implement-->
-
 - **Save card details** which allows quick and easy purchase of products and services by asking users whether they want to save their card number.
 - **Join us** which allows users to use the platform to upload their own templates by asking users to fill up a form and sign up to be a creator.
 - **FAQ page** which allows the website owner to show all commonly asked questions so that owner does not need to keep replying the same question.
+
+## Technologies Used
+
+- <https://www.javascript.com/>
+- <https://html.com/>
+- <https://css.com/>
+
+## Testing
+
+1. Contact us form
+   - Go to Contact Us page
+   - Try to submit form without email address and verify that an error messae about the required fields appears
+   - Try to submit form with invalid email addresses and verify that a relevant error essage occurs
+   - Validation for feedback ox yet to be implemented
+2. Bugs
+   - When screen size shrinks, some elements will move or not shrink properly
+   - Unable to use modal successfully for Review Page
+
+## Credits
+
+### Media
+
+- All template photos used were obtain from <https://www.canva.com/>

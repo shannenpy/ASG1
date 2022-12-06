@@ -48,12 +48,33 @@ homepage.append(productServices)
 var productServicesHeading = `<h2><a href="product.html" class="homepage-links">Products</a></h2>`
 productServices.innerHTML = productServicesHeading
 let productList = document.createElement("ul")
+productList.classList.add("product-list-ul")
 productServices.append(productList)
 var productListContent =
-`<li>Test1</li>
-<li>Test2</li>
-`
+`<li><a href="product.html#info-template"><p class="preview-type">Infographics</p><img class="preview-templates" src="images/homepage preview/infographic/1.jpg"></a></li>
+<li><a href="product.html#insta-template"><p class="preview-type">Instagram</p><img class="preview-templates" src="images/homepage preview/instagram/1.jpg"></a></li>
+<li><a href="product.html#logo-template"><p class="preview-type">logo</p><img class="preview-templates" src="images/homepage preview/logo/1.jpg"></a></li>
+<li><a href="product.html#ppt-template"><p class="preview-type">PowerPoint</p><img class="ppt" class="preview-templates" src="images/homepage preview/ppt/1.jpg">
+<img class="ppt" class="preview-templates" src="images/homepage preview/ppt/2.jpg">
+<img class="ppt" class="preview-templates" src="images/homepage preview/ppt/3.jpg"></a></li>`
 productList.innerHTML = productListContent
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("ppt");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000);
+}
+let productsInfo = document.createElement("p")
+productServices.append(productsInfo)
+var productsInfoContent = `Click on a template to see more designs.`
+productsInfo.innerHTML = productsInfoContent
 
 // pricing
 let pricing = document.createElement("section")

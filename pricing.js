@@ -35,24 +35,29 @@ navSmall.innerHTML = navSmallContent
 
 
 /*----- packages -----*/
-let packages = document.createElement("div")
-packages.classList.add("packages")
-document.body.appendChild(packages)
+let priceHead = document.createElement("h1")
+priceHead.classList.add("price-heading")
+document.body.append(priceHead)
+var priceHeading = `Subscription Packages`
+priceHead.innerHTML = priceHeading
 
-let packagesList = document.createElement("ul")
-packagesList.classList.add("packages-list")
-packagesList.setAttribute("class", "page-top")
-packages.append(packagesList)
-var packType =
-`<li id="free-pack" class="pack-type">Free</li>
-<li id="month-pack" class="pack-type">Monthly</li>
-<li id="year-pack" class="pack-type">Yearly</li>`
-packagesList.innerHTML = packType
+let packList = document.createElement("section")
+packList.classList.add("pack-list")
+document.body.append(packList)
 
 // free
+let freePack = document.createElement("div")
+freePack.classList.add("pack-type")
+freePack.setAttribute("id", "free-pack")
+packList.append(freePack)
+freeHead = document.createElement("h2")
+freeHead.classList.add("pack-head")
+freePack.append(freeHead)
+var freeHeading = `Free`
+freeHead.innerHTML = freeHeading
 let freeInfoList = document.createElement("ul")
-freeInfoList.setAttribute("id", "free-info-list")
-document.querySelector("#free-pack").append(freeInfoList)
+freeInfoList.classList.add("pack-ul")
+freePack.append(freeInfoList)
 var freeInfo = 
 `<li>Download any 3 templetes for free</li>
 <li>For the first time you engage a designer, pay without platform fee</li>
@@ -60,9 +65,18 @@ var freeInfo =
 freeInfoList.innerHTML = freeInfo
 
 // monthly
+let monthPack = document.createElement("div")
+monthPack.classList.add("pack-type")
+monthPack.setAttribute("id", "month-pack")
+packList.append(monthPack)
+monthHead = document.createElement("h2")
+monthHead.classList.add("pack-head")
+monthPack.append(monthHead)
+var monthHeading = `Monthly`
+monthHead.innerHTML = monthHeading
 let monthInfoList = document.createElement("ul")
-monthInfoList.setAttribute("id", "month-info-list")
-document.querySelector("#month-pack").append(monthInfoList)
+monthInfoList.classList.add("pack-ul")
+monthPack.append(monthInfoList)
 var monthInfo = 
 `<li>Pay $20 monthly</li>
 <li>Cancel anytime you want</li>
@@ -71,9 +85,18 @@ var monthInfo =
 monthInfoList.innerHTML = monthInfo
 
 // yearly
+let yearPack = document.createElement("div")
+yearPack.classList.add("pack-type")
+yearPack.setAttribute("id", "year-pack")
+packList.append(yearPack)
+yearHead = document.createElement("h2")
+yearHead.classList.add("pack-head")
+yearPack.append(yearHead)
+var yearHeading = `Yearly !!`
+yearHead.innerHTML = yearHeading
 let yearInfoList = document.createElement("ul")
-yearInfoList.setAttribute("id", "year-info-list")
-document.querySelector("#year-pack").append(yearInfoList)
+yearInfoList.classList.add("pack-ul")
+yearPack.append(yearInfoList)
 var yearInfo = 
 `<li>Pay $149 yearly</li>
 <li>Cancel anytime you want</li>

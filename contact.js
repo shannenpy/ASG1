@@ -32,3 +32,41 @@ navSmall.innerHTML = navSmallContent
 let navSection = document.createElement("section")
 mainnav.append(navSection)
 navSmall.innerHTML = navSmallContent
+
+/* ----- Forms ----- */
+let formDiv = document.createElement("div")
+formDiv.classList.add("forms")
+document.body.append(formDiv)
+let form = document.createElement("form")
+form.setAttribute("name", "contactForm")
+form.setAttribute("onsubmit", "return validateForm()")
+formDiv.append(form)
+var formContent =
+`<h2>Questions about our website</h2><br>
+<input type="email" placeholder="Your email" name="emailAdd"><br><br>
+<textarea rows="4" cols="30" placeholder="Ask us anything!" name="feedback"></textarea><br><br>
+<input type="submit" value="Submit" id="submit-button">`
+form.innerHTML = formContent
+
+function validateForm() {
+    let email = document.forms["contactForm"]["emailAdd"].value;
+    if (email == "") {
+        alert("Email Address compulsory");
+        return false;
+    }
+
+    function ValidateEmail(inputText){
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(inputText.value.match(mailformat))
+        {
+        return true;
+        }
+        else
+        {
+        alert("You have entered an invalid email address!");
+        document.form1.text1.focus();
+        return false;
+        }
+        }
+
+}
