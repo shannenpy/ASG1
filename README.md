@@ -44,7 +44,7 @@
 ## Technologies Used
 
 - [JavaScript](https://www.javascript.com/)
-- [HTML(https://html.com/)
+- [HTML](https://html.com/)
 - [CSS](https://css.com/)
 
 ## Testing
